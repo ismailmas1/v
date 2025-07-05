@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+#header {
+    background-color: rgb(0, 0, 0) !important;
+    
+    
+}
+.navbar-brand {
+    color: rgb(255, 153, 0) !important;
+    margin: 0 350px 0 60px !important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+}
+.nav-link {
+    color: white !important;
+    margin: 0 20px !important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+}
+.navbar-toggler {
+    background-color:white !important;
+}
+.nav-link:hover {
+    
+    color: #e4b95b !important;
+    cursor: pointer;
+}
+
+@media (max-width: 534px) {
+    .navbar-toggler {
+        position: relative;
+        left: 78%;
+        
+    }
+    .navbar-brand {
+        position: absolute;
+    }
+}
+ 
+/*Navbar End*/  
+    article {
+        width: 60vh;
+        margin: auto;
+        flex-wrap: wrap;
+        margin-top: 8%;
+        display: flex;
+        
+        
+    }
+    .card {
+        height: 60vh;
+        
+    }
+    input {
+        margin: 1rem 0.5rem;
+        border: 2px #e4b95b solid;
+        width: 57vh;
+        margin: auto;
+        
+    }
+    textarea {
+       margin: 1rem 0.5rem; 
+    }

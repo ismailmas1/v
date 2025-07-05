@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#header {
+    background-color: rgb(0, 0, 0) !important;
+    
+}
+.navbar-brand {
+    color: rgb(255, 153, 0) !important;
+    margin: 0 350px 0 60px !important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+}
+.nav-link {
+    color: white !important;
+    margin: 0 20px !important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+}
+.navbar-toggler {
+    background-color:white !important;
+}
+.nav-link:hover {
+    
+    color: #e4b95b !important;
+    cursor: pointer;
+}
+
+@media (max-width: 534px) {
+    .navbar-toggler {
+        position: relative;
+        left: 78%;
+        
+    }
+    .navbar-brand {
+        position: absolute;
+    }
+}
+ 
+/*Navbar End*/
+/*Content Start*/
+#Home {
+    background-image: url(svg/backrawnd1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+}
+header .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 91vh;
+}
+header .content h1 {
+    font-size: 35px;
+    color: aliceblue;
+}
+header .content p {
+    margin: 20px 0 40px;
+    color: antiquewhite;
+    text-align: center;
+}
+header .content h1 span {
+    color: orange
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgba(255, 136, 0, 0.733);
+
+}
+.btn-primary {
+    color: aliceblue;
+    border: 1px solid #fff;
+}
+.btn-primary:hover{
+    background-color: #e4b95b;
+}
+
+.About1 p {
+    margin: 20px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/*container End*/
+    @media (max-width: 558px){
+    header .content h1 {
+        font-size: 25px;
+    }  
+    .About1 p {
+        font-size: 20px;
+    }
+}
+@media (max-width: 404px) {
+    header .content h1 {
+        font-size: 18px;
+    }  
+}
+@media (max-width: 324px) {
+    header .content h1 {
+        font-size: 15px;
+    }
+}
+/*Contact Stard*/
+#Contac {
+    max-height: 30vh;
+    height: 30vh;
+}
+.Contact2 img {
+    max-width: 100vh;
+    width: 15vh;
+    border-radius: 50%;
+    position: relative;
+    left: 25%;
+    margin: 5px 80px;
+}
+
+@media (max-width: 1390px) {
+    .Contact2 img {
+        position: relative;
+        left: 20%;
+        top: 50px; 
+        }
+}
+@media (max-width: 1242px){
+    .Contact2 img {
+       position: relative;
+        left: 15%;
+        top: 50px;  
+    }
+} 
+@media (max-width: 998px) {
+    .Contact2 img {
+        position: relative;
+        left: 10%;
+        top: 50px; 
+    }
+} 
+@media (max-width: 922px) {
+    .Contact2 img {
+        position: relative;
+        left: 10%;
+        top: 50px;
+        width: 12vh; 
+    }
+} 
+@media (max-width: 746px) {
+    .Contact2 img {
+        position: relative;
+        left: 4%;
+        top: 50px;
+        width: 12vh;  
+    }
+} 
+@media (max-width: 718px) {
+    #Contac {
+   
+    max-height: 90vh;
+    height: 90vh;
+}
+    .Contact2 img {
+        display: flex;
+        margin: 170px 0;
+        margin-left: 250px;
+        width: 15vh;
+    }
+} 
+@media (max-width: 570px) {
+    #Contac {
+   
+    max-height: 90vh;
+    height: 90vh;
+}
+    .Contact2 img {
+        display: flex;
+        margin: 170px 0;
+        margin-left: 195px;
+        width: 15vh;
+    }
+} 
+@media (max-width: 510px) {
+    #Contac {
+    
+    max-height: 90vh;
+    height: 90vh;
+}
+    .Contact2 img {
+        display: flex;
+        margin: 170px 0;
+        margin-left: 160px;
+        width: 15vh;
+    }
+} 
+@media (max-width: 450px) {
+        .Contact2 img {
+        display: flex;
+        margin: 170px 0;
+        margin-left: 120px;
+        width: 15vh;
+    }
+}
+@media (max-width: 390px) {
+        .Contact2 img {
+        display: flex;
+        margin: 170px 0;
+        margin-left: 100px;
+        width: 15vh;
+    }
+}
+@media (max-width: 326px) {
+        .Contact2 img {
+        display: flex;
+        margin: 170px 0;
+        margin-left: 70px;
+        width: 15vh;
+    }
+}
+@media (max-width: 294px) {
+        .Contact2 img {
+        display: flex;
+        margin: 170px 0;
+        margin-left: 60px;
+        width: 15vh;
+    }
+}
+@media (max-width: 246px) {
+        .Contact2 img {
+        display: flex;
+        margin: 170px 0;
+        margin-left: 30px;
+        width: 15vh;
+    }
+}
+@media (max-width: 220px) {
+        .Contact2 img {
+        display: flex;
+        margin: 170px 0;
+        margin-left: 20px;
+        width: 15vh;
+    }
+    header .content h1 {
+        padding-left: 10px;
+        font-size: 12px;
+    }
+}
+@media (max-width: 1096px) {
+        .Contact2 img {
+        position: relative;
+        left: 5%;
+        top: 80px;
+    }
+}
+
+/*Contact End */
